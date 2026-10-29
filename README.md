@@ -33,15 +33,20 @@ Framework: FastAPI
 git clone https://github.com/projeto-de-algoritmos-2026/G17_Dividir_e_Conquistar_PA-26.2.git
 
 cd G17_Dividir_e_Conquistar_PA-26.2
-
-# 2. Crie e ative o ambiente virtual:
+```
+**2. Crie e ative o ambiente virtual:**
+```bash
 python -m venv venv
-# No Windows:
-venv\Scripts\activate
-# No Linux/Mac:
-source venv/bin/activate
 
-# 3. Instale as dependências do backend:
+# Ativar no Windows:
+venv\Scripts\activate
+
+# Ativar no Linux/Mac:
+source venv/bin/activate
+```
+
+**3. Instale as dependências do backend:**
+```bash
 pip install -r backend/requirements.txt
 ```
 
